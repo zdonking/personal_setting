@@ -1,0 +1,868 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$	/opt/study_dt_al/hmwk/tags	/^BSTNode	project_1\/bst_fast_and_slow\/bst_fast_and_slow.hh	\/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$\/;"	f	class:BSTNode$/;"	v	typeref:class:__anon4
+$	/opt/study_dt_al/hmwk/tags	/^Node	9_18\/linked_list.cpp	\/^struct Node{$\/;"	s	file:$/;"	m	class:__anon5	file:	access:private
+$	/opt/study_dt_al/hmwk/tags	/^Node	lab_4\/dll_list\/dll_list.hh	\/^  Node(T theData, Node<T> *thePrev, Node<T> *theNext) { data = theData; prev = thePrev; next = theNext; }$\/;"	f	class:Node$/;"	m	class:__anon5	typeref:class:__anon5::__anon6	file:	access:private
+AVLNode	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode(T theKey) $/;"	f	class:AVLNode	access:public	signature:(T theKey)
+AVLNode	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode(T theKey, AVLNode<T> *theLeft, AVLNode<T> *theRight) $/;"	f	class:AVLNode	access:public	signature:(T theKey, AVLNode<T> *theLeft, AVLNode<T> *theRight)
+AVLNode	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode(T theKey, AVLNode<T> *theParent, AVLNode<T> *theLeft, AVLNode<T> *theRight) $/;"	f	class:AVLNode	access:public	signature:(T theKey, AVLNode<T> *theParent, AVLNode<T> *theLeft, AVLNode<T> *theRight)
+AVLNode	/opt/study_dt_al/hmwk/lab6/avl.hh	/^class AVLNode$/;"	c
+AVLNode::AVLNode	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode(T theKey) $/;"	f	class:AVLNode	access:public	signature:(T theKey)
+AVLNode::AVLNode	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode(T theKey, AVLNode<T> *theLeft, AVLNode<T> *theRight) $/;"	f	class:AVLNode	access:public	signature:(T theKey, AVLNode<T> *theLeft, AVLNode<T> *theRight)
+AVLNode::AVLNode	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode(T theKey, AVLNode<T> *theParent, AVLNode<T> *theLeft, AVLNode<T> *theRight) $/;"	f	class:AVLNode	access:public	signature:(T theKey, AVLNode<T> *theParent, AVLNode<T> *theLeft, AVLNode<T> *theRight)
+AVLNode::balanceFactor	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int balanceFactor;$/;"	m	class:AVLNode	access:public
+AVLNode::currentHeight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int currentHeight;   \/\/ used to speed up computation of ancestor node heights$/;"	m	class:AVLNode	access:public
+AVLNode::getKey	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  const T & getKey() { return key; }$/;"	f	class:AVLNode	access:public	signature:()
+AVLNode::getLeft	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> * & getLeft() { return left; }$/;"	f	class:AVLNode	access:public	signature:()
+AVLNode::getNumber	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int getNumber() { return number; }$/;"	f	class:AVLNode	access:public	signature:()
+AVLNode::getParent	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> * & getParent() { return parent; }$/;"	f	class:AVLNode	access:public	signature:()
+AVLNode::getRight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> * & getRight() { return right; }$/;"	f	class:AVLNode	access:public	signature:()
+AVLNode::key	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  T key;$/;"	m	class:AVLNode	access:private
+AVLNode::left	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> *left;   \/\/ link to left child$/;"	m	class:AVLNode	access:private
+AVLNode::number	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int number;         \/\/ how many occurrences of key there are$/;"	m	class:AVLNode	access:private
+AVLNode::parent	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> *parent; \/\/ link to parent$/;"	m	class:AVLNode	access:private
+AVLNode::print	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void print() { cout << key << " (" << number << ")" << endl; }$/;"	f	class:AVLNode	access:public	signature:()
+AVLNode::print_column	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int print_column;    \/\/ used by pretty print$/;"	m	class:AVLNode	access:public
+AVLNode::right	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> *right;  \/\/ link to right child$/;"	m	class:AVLNode	access:private
+AVLNode::setKey	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setKey(T & theKey) { key = theKey; }$/;"	f	class:AVLNode	access:public	signature:(T & theKey)
+AVLNode::setLeft	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setLeft(AVLNode<T> * theLeft) { left = theLeft; }$/;"	f	class:AVLNode	access:public	signature:(AVLNode<T> * theLeft)
+AVLNode::setNumber	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setNumber(int num) { number = num; }$/;"	f	class:AVLNode	access:public	signature:(int num)
+AVLNode::setParent	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setParent(AVLNode<T> * theParent) { parent = theParent; }$/;"	f	class:AVLNode	access:public	signature:(AVLNode<T> * theParent)
+AVLNode::setRight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setRight(AVLNode<T> * theRight) { right = theRight; }$/;"	f	class:AVLNode	access:public	signature:(AVLNode<T> * theRight)
+AVLTree	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLTree() { root = NULL; node_just_inserted = NULL; numNodes = 0; numKeys = 0; worstBalanceFactor = 0; }   \/\/ make an empty AVL tree$/;"	f	class:AVLTree	access:public	signature:()
+AVLTree	/opt/study_dt_al/hmwk/lab6/avl.hh	/^class AVLTree$/;"	c
+AVLTree::AVLTree	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLTree() { root = NULL; node_just_inserted = NULL; numNodes = 0; numKeys = 0; worstBalanceFactor = 0; }   \/\/ make an empty AVL tree$/;"	f	class:AVLTree	access:public	signature:()
+AVLTree::computeBalance	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int computeBalance(AVLNode<T> *);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+AVLTree::computeBalance	/opt/study_dt_al/hmwk/lab6/avl.hh	/^int AVLTree<T>::computeBalance(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+AVLTree::computeHeight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int computeHeight();                          \/\/ needed for balance factor computation $/;"	p	class:AVLTree	access:public	signature:()
+AVLTree::computeHeight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int computeHeight(AVLNode<T> *);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+AVLTree::computeHeight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^int AVLTree<T>::computeHeight()$/;"	f	class:AVLTree	signature:()
+AVLTree::computeHeight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^int AVLTree<T>::computeHeight(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+AVLTree::computeLevel	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int computeLevel(AVLNode<T> *);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+AVLTree::computeLevel	/opt/study_dt_al/hmwk/lab6/avl.hh	/^int AVLTree<T>::computeLevel(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+AVLTree::contains	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  bool contains(T &);                           \/\/ does this AVL tree contain a certain key?$/;"	p	class:AVLTree	access:public	signature:(T &)
+AVLTree::contains	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  bool contains(T &, AVLNode<T> *);             $/;"	p	class:AVLTree	access:public	signature:(T &, AVLNode<T> *)
+AVLTree::contains	/opt/study_dt_al/hmwk/lab6/avl.hh	/^bool AVLTree<T>::contains(T & key)$/;"	f	class:AVLTree	signature:(T & key)
+AVLTree::contains	/opt/study_dt_al/hmwk/lab6/avl.hh	/^bool AVLTree<T>::contains(T & key, AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(T & key, AVLNode<T> * t)
+AVLTree::findMax	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  const T & findMax();                          \/\/ what is the biggest key in the AVL tree?$/;"	p	class:AVLTree	access:public	signature:()
+AVLTree::findMax	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  const T & findMax(AVLNode<T> *);  $/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+AVLTree::findMax	/opt/study_dt_al/hmwk/lab6/avl.hh	/^const T & AVLTree<T>::findMax()$/;"	f	class:AVLTree	signature:()
+AVLTree::findMax	/opt/study_dt_al/hmwk/lab6/avl.hh	/^const T & AVLTree<T>::findMax(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+AVLTree::findMin	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  const T & findMin();                          \/\/ what is the smallest key in the AVL tree?$/;"	p	class:AVLTree	access:public	signature:()
+AVLTree::findMin	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  const T & findMin(AVLNode<T> *);  $/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+AVLTree::findMin	/opt/study_dt_al/hmwk/lab6/avl.hh	/^const T & AVLTree<T>::findMin()$/;"	f	class:AVLTree	signature:()
+AVLTree::findMin	/opt/study_dt_al/hmwk/lab6/avl.hh	/^const T & AVLTree<T>::findMin(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+AVLTree::getNumKeys	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int getNumKeys() { return numKeys; }$/;"	f	class:AVLTree	access:public	signature:()
+AVLTree::insert	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> *insert(T &, AVLNode<T> *, AVLNode<T> *); $/;"	p	class:AVLTree	access:public	signature:(T &, AVLNode<T> *, AVLNode<T> *)
+AVLTree::insert	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void insert(T &);                             \/\/ put a key into the AVL tree $/;"	p	class:AVLTree	access:public	signature:(T &)
+AVLTree::insert	/opt/study_dt_al/hmwk/lab6/avl.hh	/^AVLNode<T> *AVLTree<T>::insert(T & key, AVLNode<T> * t, AVLNode<T> * parent)$/;"	f	class:AVLTree	signature:(T & key, AVLNode<T> * t, AVLNode<T> * parent)
+AVLTree::insert	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::insert(T & key)$/;"	f	class:AVLTree	signature:(T & key)
+AVLTree::insertFileWords	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void insertFileWords(char *);$/;"	p	class:AVLTree	access:public	signature:(char *)
+AVLTree::insertFileWords	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::insertFileWords(char *filename)$/;"	f	class:AVLTree	signature:(char *filename)
+AVLTree::node_just_inserted	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> *node_just_inserted;               \/\/ pointer to the node last inserted$/;"	m	class:AVLTree	access:public
+AVLTree::numKeys	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int numKeys;$/;"	m	class:AVLTree	access:private
+AVLTree::numNodes	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int numNodes;$/;"	m	class:AVLTree	access:private
+AVLTree::print_inorder	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void print_inorder();$/;"	p	class:AVLTree	access:public	signature:()
+AVLTree::print_inorder	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void print_inorder(AVLNode<T> *);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+AVLTree::print_inorder	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::print_inorder()$/;"	f	class:AVLTree	signature:()
+AVLTree::print_inorder	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::print_inorder(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+AVLTree::print_level_and_pretty	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void print_level_and_pretty();$/;"	p	class:AVLTree	access:public	signature:()
+AVLTree::print_level_and_pretty	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::print_level_and_pretty()$/;"	f	class:AVLTree	signature:()
+AVLTree::print_levelorder	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void print_levelorder();$/;"	p	class:AVLTree	access:public	signature:()
+AVLTree::print_levelorder	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::print_levelorder()$/;"	f	class:AVLTree	signature:()
+AVLTree::print_pretty	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void print_pretty();$/;"	p	class:AVLTree	access:public	signature:()
+AVLTree::print_pretty	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::print_pretty()$/;"	f	class:AVLTree	signature:()
+AVLTree::root	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> *root;                             \/\/ pointer to the node at the root of the tree$/;"	m	class:AVLTree	access:public
+AVLTree::rotate_left	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void rotate_left(AVLNode<T> * &, bool = false);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> * &, bool = false)
+AVLTree::rotate_left	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::rotate_left(AVLNode<T> * & t, bool do_print)$/;"	f	class:AVLTree	signature:(AVLNode<T> * & t, bool do_print)
+AVLTree::rotate_right	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void rotate_right(AVLNode<T> * &, bool = false);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> * &, bool = false)
+AVLTree::rotate_right	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::rotate_right(AVLNode<T> * & t, bool do_print)$/;"	f	class:AVLTree	signature:(AVLNode<T> * & t, bool do_print)
+AVLTree::setAllBalanceFactors	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setAllBalanceFactors();$/;"	p	class:AVLTree	access:public	signature:()
+AVLTree::setAllBalanceFactors	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setAllBalanceFactors(AVLNode<T> *);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+AVLTree::setAllBalanceFactors	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::setAllBalanceFactors()$/;"	f	class:AVLTree	signature:()
+AVLTree::setAllBalanceFactors	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::setAllBalanceFactors(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+AVLTree::setAllCurrentHeights	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int setAllCurrentHeights(AVLNode<T> *);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+AVLTree::setAllCurrentHeights	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setAllCurrentHeights();$/;"	p	class:AVLTree	access:public	signature:()
+AVLTree::setAllCurrentHeights	/opt/study_dt_al/hmwk/lab6/avl.hh	/^int AVLTree<T>::setAllCurrentHeights(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+AVLTree::setAllCurrentHeights	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::setAllCurrentHeights()$/;"	f	class:AVLTree	signature:()
+AVLTree::size	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int size() { return numNodes; }$/;"	f	class:AVLTree	access:public	signature:()
+AVLTree::updateBalanceFactors	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void updateBalanceFactors();$/;"	p	class:AVLTree	access:public	signature:()
+AVLTree::updateBalanceFactors	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::updateBalanceFactors()$/;"	f	class:AVLTree	signature:()
+AVLTree::worstBalanceFactor	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int worstBalanceFactor;$/;"	m	class:AVLTree	access:public
+AVL_HH	/opt/study_dt_al/hmwk/lab6/avl.hh	8;"	d
+And	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    And, in strong proof of chastity well arm'd,$/;"	v
+And	/opt/study_dt_al/template/filecleaner/rj.txt	/^    And, in strong proof of chastity well arm'd,$/;"	v
+BSTNode	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode(T theKey) { key = theKey; left = NULL; right = NULL; number = 1; }$/;"	f	class:BSTNode	access:public	signature:(T theKey)
+BSTNode	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$/;"	f	class:BSTNode	access:public	signature:(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight)
+BSTNode	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^class BSTNode$/;"	c
+BSTNode	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode(T theKey) { key = theKey; left = NULL; right = NULL; number = 1; }$/;"	f	class:BSTNode	access:public	signature:(T theKey)
+BSTNode	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$/;"	f	class:BSTNode	access:public	signature:(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight)
+BSTNode	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^class BSTNode$/;"	c
+BSTNode::BSTNode	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode(T theKey) { key = theKey; left = NULL; right = NULL; number = 1; }$/;"	f	class:BSTNode	access:public	signature:(T theKey)
+BSTNode::BSTNode	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$/;"	f	class:BSTNode	access:public	signature:(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight)
+BSTNode::BSTNode	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode(T theKey) { key = theKey; left = NULL; right = NULL; number = 1; }$/;"	f	class:BSTNode	access:public	signature:(T theKey)
+BSTNode::BSTNode	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$/;"	f	class:BSTNode	access:public	signature:(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight)
+BSTNode::addnumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void addnumber(){ number++; }$/;"	f	class:BSTNode	access:public	signature:()
+BSTNode::getKey	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  const T & getKey() { return key; }$/;"	f	class:BSTNode	access:public	signature:()
+BSTNode::getKey	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  const T & getKey() { return key; }$/;"	f	class:BSTNode	access:public	signature:()
+BSTNode::getLeft	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *getLeft() { return left; }$/;"	f	class:BSTNode	access:public	signature:()
+BSTNode::getLeft	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *getLeft() { return left; }$/;"	f	class:BSTNode	access:public	signature:()
+BSTNode::getNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getNumber(){ return number; }$/;"	f	class:BSTNode	access:public	signature:()
+BSTNode::getRight	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *getRight() { return right; }$/;"	f	class:BSTNode	access:public	signature:()
+BSTNode::getRight	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *getRight() { return right; }$/;"	f	class:BSTNode	access:public	signature:()
+BSTNode::key	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  T key;$/;"	m	class:BSTNode	access:private
+BSTNode::key	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  T key;$/;"	m	class:BSTNode	access:private
+BSTNode::left	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *left;   \/\/ link to left child$/;"	m	class:BSTNode	access:private
+BSTNode::left	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *left;   \/\/ link to left child$/;"	m	class:BSTNode	access:private
+BSTNode::number	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int number;         \/\/ how many occurrences of key there are$/;"	m	class:BSTNode	access:private
+BSTNode::number	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int number;         \/\/ how many occurrences of key there are$/;"	m	class:BSTNode	access:private
+BSTNode::print	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void print() { cout << key << " (" << number << ")" << endl; }$/;"	f	class:BSTNode	access:public	signature:()
+BSTNode::print	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void print() { cout << key << " (" << number << ")" << endl; }$/;"	f	class:BSTNode	access:public	signature:()
+BSTNode::right	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *right;  \/\/ link to right child$/;"	m	class:BSTNode	access:private
+BSTNode::right	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *right;  \/\/ link to right child$/;"	m	class:BSTNode	access:private
+BSTNode::setKey	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void setKey(T theKey) { key = theKey; }$/;"	f	class:BSTNode	access:public	signature:(T theKey)
+BSTNode::setKey	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void setKey(T theKey) { key = theKey; }$/;"	f	class:BSTNode	access:public	signature:(T theKey)
+BSTNode::setLeft	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void setLeft(BSTNode<T> * theLeft) { left = theLeft; }$/;"	f	class:BSTNode	access:public	signature:(BSTNode<T> * theLeft)
+BSTNode::setLeft	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void setLeft(BSTNode<T> * theLeft) { left = theLeft; }$/;"	f	class:BSTNode	access:public	signature:(BSTNode<T> * theLeft)
+BSTNode::setRight	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void setRight(BSTNode<T> * theRight) { right = theRight; }$/;"	f	class:BSTNode	access:public	signature:(BSTNode<T> * theRight)
+BSTNode::setRight	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void setRight(BSTNode<T> * theRight) { right = theRight; }$/;"	f	class:BSTNode	access:public	signature:(BSTNode<T> * theRight)
+BST_HH	/opt/study_dt_al/hmwk/plus_practice/bst_fast_and_slow.tar	56;"	d	file:
+BST_HH	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	10;"	d
+BST_HH	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	10;"	d
+BSTree_Fast	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTree_Fast() { maxDepth = 0; root = NULL; }  \/\/ make an empty BST$/;"	f	class:BSTree_Fast	access:public	signature:()
+BSTree_Fast	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^class BSTree_Fast$/;"	c
+BSTree_Fast	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTree_Fast() { maxDepth = 0; root = NULL; }  \/\/ make an empty BST$/;"	f	class:BSTree_Fast	access:public	signature:()
+BSTree_Fast	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^class BSTree_Fast$/;"	c
+BSTree_Fast::BSTree_Fast	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTree_Fast() { maxDepth = 0; root = NULL; }  \/\/ make an empty BST$/;"	f	class:BSTree_Fast	access:public	signature:()
+BSTree_Fast::BSTree_Fast	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTree_Fast() { maxDepth = 0; root = NULL; }  \/\/ make an empty BST$/;"	f	class:BSTree_Fast	access:public	signature:()
+BSTree_Fast::contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  bool contains(BSTNode<T> *node,T & );$/;"	p	class:BSTree_Fast	access:private	signature:(BSTNode<T> *node,T & )
+BSTree_Fast::contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  bool contains(T &);                           \/\/ does this BST contain a certain key?$/;"	p	class:BSTree_Fast	access:public	signature:(T &)
+BSTree_Fast::contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^bool BSTree_Fast<T>::contains(BSTNode<T> *node,T & key){$/;"	f	class:BSTree_Fast	signature:(BSTNode<T> *node,T & key)
+BSTree_Fast::contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^bool BSTree_Fast<T>::contains(T & key)$/;"	f	class:BSTree_Fast	signature:(T & key)
+BSTree_Fast::contains	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  bool contains(T &);                           \/\/ does this BST contain a certain key?$/;"	p	class:BSTree_Fast	access:public	signature:(T &)
+BSTree_Fast::contains	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^bool BSTree_Fast<T>::contains(T & key)$/;"	f	class:BSTree_Fast	signature:(T & key)
+BSTree_Fast::findMax	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  const T & findMax();                          \/\/ what is the smallest key in the BST?$/;"	p	class:BSTree_Fast	access:public	signature:()
+BSTree_Fast::findMax	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^const T & BSTree_Fast<T>::findMax()$/;"	f	class:BSTree_Fast	signature:()
+BSTree_Fast::findMax	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  const T & findMax();                          \/\/ what is the smallest key in the BST?$/;"	p	class:BSTree_Fast	access:public	signature:()
+BSTree_Fast::findMax	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^const T & BSTree_Fast<T>::findMax()$/;"	f	class:BSTree_Fast	signature:()
+BSTree_Fast::getMaxDepth	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getMaxDepth() { return maxDepth; }$/;"	f	class:BSTree_Fast	access:public	signature:()
+BSTree_Fast::getMaxDepth	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getMaxDepth() { return maxDepth; }$/;"	f	class:BSTree_Fast	access:public	signature:()
+BSTree_Fast::getTotalNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getTotalNumber();$/;"	p	class:BSTree_Fast	access:public	signature:()
+BSTree_Fast::getTotalNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getTotalNumber(BSTNode<T> *node);$/;"	p	class:BSTree_Fast	access:private	signature:(BSTNode<T> *node)
+BSTree_Fast::getTotalNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^int BSTree_Fast<T>::getTotalNumber(){$/;"	f	class:BSTree_Fast	signature:()
+BSTree_Fast::getTotalNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^int BSTree_Fast<T>::getTotalNumber(BSTNode<T> *node){$/;"	f	class:BSTree_Fast	signature:(BSTNode<T> *node)
+BSTree_Fast::getUniqueNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getUniqueNumber();$/;"	p	class:BSTree_Fast	access:public	signature:()
+BSTree_Fast::getUniqueNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getUniqueNumber(BSTNode<T> *node);$/;"	p	class:BSTree_Fast	access:private	signature:(BSTNode<T> *node)
+BSTree_Fast::getUniqueNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^int BSTree_Fast<T>::getUniqueNumber(){$/;"	f	class:BSTree_Fast	signature:()
+BSTree_Fast::getUniqueNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^int BSTree_Fast<T>::getUniqueNumber(BSTNode<T> *node){$/;"	f	class:BSTree_Fast	signature:(BSTNode<T> *node)
+BSTree_Fast::insert	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void insert(T &);                             \/\/ put a key into the BST $/;"	p	class:BSTree_Fast	access:public	signature:(T &)
+BSTree_Fast::insert	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Fast<T>::insert(T & key)$/;"	f	class:BSTree_Fast	signature:(T & key)
+BSTree_Fast::insert	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void insert(T &);                             \/\/ put a key into the BST $/;"	p	class:BSTree_Fast	access:public	signature:(T &)
+BSTree_Fast::insert	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Fast<T>::insert(T & key)$/;"	f	class:BSTree_Fast	signature:(T & key)
+BSTree_Fast::insertNode	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int insertNode(BSTNode<T> *node,T &,int curtime);$/;"	p	class:BSTree_Fast	access:private	signature:(BSTNode<T> *node,T &,int curtime)
+BSTree_Fast::insertNode	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^int BSTree_Fast<T>::insertNode(BSTNode<T> *node,T & key,int curtime ){$/;"	f	class:BSTree_Fast	signature:(BSTNode<T> *node,T & key,int curtime )
+BSTree_Fast::maxDepth	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int maxDepth;$/;"	m	class:BSTree_Fast	access:private
+BSTree_Fast::maxDepth	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int maxDepth;$/;"	m	class:BSTree_Fast	access:private
+BSTree_Fast::print	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void print();$/;"	p	class:BSTree_Fast	access:public	signature:()
+BSTree_Fast::print	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Fast<T>::print(){$/;"	f	class:BSTree_Fast	signature:()
+BSTree_Fast::print_node	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void print_node(BSTNode<T> *node );$/;"	p	class:BSTree_Fast	access:private	signature:(BSTNode<T> *node )
+BSTree_Fast::print_node	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Fast<T>::print_node(BSTNode<T> *node ){$/;"	f	class:BSTree_Fast	signature:(BSTNode<T> *node )
+BSTree_Fast::root	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *root;                             \/\/ pointer to the node at the root of the tree$/;"	m	class:BSTree_Fast	access:private
+BSTree_Fast::root	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *root;                             \/\/ pointer to the node at the root of the tree$/;"	m	class:BSTree_Fast	access:private
+BSTree_Slow	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTree_Slow() { tree.clear(); }               \/\/ make an empty BST$/;"	f	class:BSTree_Slow	access:public	signature:()
+BSTree_Slow	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^class BSTree_Slow$/;"	c
+BSTree_Slow	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTree_Slow() { tree.clear(); }               \/\/ make an empty BST$/;"	f	class:BSTree_Slow	access:public	signature:()
+BSTree_Slow	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^class BSTree_Slow$/;"	c
+BSTree_Slow::BSTree_Slow	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTree_Slow() { tree.clear(); }               \/\/ make an empty BST$/;"	f	class:BSTree_Slow	access:public	signature:()
+BSTree_Slow::BSTree_Slow	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTree_Slow() { tree.clear(); }               \/\/ make an empty BST$/;"	f	class:BSTree_Slow	access:public	signature:()
+BSTree_Slow::contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  bool contains(T &);                           \/\/ does this BST contain a certain key?$/;"	p	class:BSTree_Slow	access:public	signature:(T &)
+BSTree_Slow::contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^bool BSTree_Slow<T>::contains(T & key)$/;"	f	class:BSTree_Slow	signature:(T & key)
+BSTree_Slow::contains	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  bool contains(T &);                           \/\/ does this BST contain a certain key?$/;"	p	class:BSTree_Slow	access:public	signature:(T &)
+BSTree_Slow::contains	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^bool BSTree_Slow<T>::contains(T & key)$/;"	f	class:BSTree_Slow	signature:(T & key)
+BSTree_Slow::findMax	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  const T & findMax();                          \/\/ what is the smallest key in the BST?$/;"	p	class:BSTree_Slow	access:public	signature:()
+BSTree_Slow::findMax	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^const T & BSTree_Slow<T>::findMax()$/;"	f	class:BSTree_Slow	signature:()
+BSTree_Slow::findMax	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  const T & findMax();                          \/\/ what is the smallest key in the BST?$/;"	p	class:BSTree_Slow	access:public	signature:()
+BSTree_Slow::findMax	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^const T & BSTree_Slow<T>::findMax()$/;"	f	class:BSTree_Slow	signature:()
+BSTree_Slow::insert	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void insert(T &);                             \/\/ put a key into the BST $/;"	p	class:BSTree_Slow	access:public	signature:(T &)
+BSTree_Slow::insert	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Slow<T>::insert(T & key)$/;"	f	class:BSTree_Slow	signature:(T & key)
+BSTree_Slow::insert	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void insert(T &);                             \/\/ put a key into the BST $/;"	p	class:BSTree_Slow	access:public	signature:(T &)
+BSTree_Slow::insert	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Slow<T>::insert(T & key)$/;"	f	class:BSTree_Slow	signature:(T & key)
+BSTree_Slow::print	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void print();                                 \/\/ print$/;"	p	class:BSTree_Slow	access:public	signature:()
+BSTree_Slow::print	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Slow<T>::print()$/;"	f	class:BSTree_Slow	signature:()
+BSTree_Slow::tree	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  vector < BSTNode<T> * > tree;                 \/\/ vector of pointers to nodes in the "tree"$/;"	m	class:BSTree_Slow	access:private
+BSTree_Slow::tree	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  vector < BSTNode<T> * > tree;                 \/\/ vector of pointers to nodes in the "tree"$/;"	m	class:BSTree_Slow	access:private
+Capulet	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^      Mine uncle Capulet, his wife, and daughters;$/;"	v
+Capulet	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    By thee, old Capulet, and Montague,$/;"	v
+Capulet	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    You, Capulet, shall go along with me;$/;"	v
+Capulet	/opt/study_dt_al/template/filecleaner/rj.txt	/^      Mine uncle Capulet, his wife, and daughters;$/;"	v
+Capulet	/opt/study_dt_al/template/filecleaner/rj.txt	/^    By thee, old Capulet, and Montague,$/;"	v
+Capulet	/opt/study_dt_al/template/filecleaner/rj.txt	/^    You, Capulet, shall go along with me;$/;"	v
+Come	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Come, go with me. [To Servant, giving him a paper] Go,$/;"	v
+Come	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Come, go with me. [To Servant, giving him a paper] Go,$/;"	v
+Count	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Paris, a young Count, kinsman to the Prince.$/;"	v
+Count	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Paris, a young Count, kinsman to the Prince.$/;"	v
+DLL_LIST_HH	/opt/study_dt_al/hmwk/lab_4/dll_list.tar	51;"	d	file:
+DLL_LIST_HH	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	5;"	d
+DLL_LIST_HH	/opt/study_dt_al/hmwk/lab_4/dll_list/lab4.tar	51;"	d	file:
+East	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Peer'd forth the golden window of the East,$/;"	v
+East	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Peer'd forth the golden window of the East,$/;"	v
+Freetown	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    To old Freetown, our common judgment place.$/;"	v
+Freetown	/opt/study_dt_al/template/filecleaner/rj.txt	/^    To old Freetown, our common judgment place.$/;"	v
+God	/opt/study_dt_al/hmwk/lab_4/dll_list/getty.txt	/^that this nation, under God, shall have a new birth of freedom...$/;"	v
+God	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Were of an age. Well, Susan is with God;$/;"	v
+God	/opt/study_dt_al/template/filecleaner/getty.txt	/^that this nation, under God, shall have a new birth of freedom...$/;"	v
+God	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Were of an age. Well, Susan is with God;$/;"	v
+H	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst	/^*/;"	v
+I	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    This love feel I, that feel no love in this.$/;"	v
+I	/opt/study_dt_al/template/filecleaner/rj.txt	/^    This love feel I, that feel no love in this.$/;"	v
+LinkedList	/opt/study_dt_al/recycle/linked.cpp	/^    LinkedList(){$/;"	f	class:LinkedList	access:public	signature:()
+LinkedList	/opt/study_dt_al/recycle/linked.cpp	/^class LinkedList{$/;"	c	file:
+LinkedList::LinkedList	/opt/study_dt_al/recycle/linked.cpp	/^    LinkedList(){$/;"	f	class:LinkedList	access:public	signature:()
+LinkedList::Node	/opt/study_dt_al/recycle/linked.cpp	/^    struct Node{$/;"	s	class:LinkedList	file:	access:private
+LinkedList::Node::next	/opt/study_dt_al/recycle/linked.cpp	/^        Node *next;$/;"	m	struct:LinkedList::Node	file:	access:public
+LinkedList::Node::x	/opt/study_dt_al/recycle/linked.cpp	/^        int x;$/;"	m	struct:LinkedList::Node	file:	access:public
+LinkedList::addValue	/opt/study_dt_al/recycle/linked.cpp	/^void addValue(int val){$/;"	f	class:LinkedList	access:public	signature:(int val)
+LinkedList::head	/opt/study_dt_al/recycle/linked.cpp	/^    Node *head;$/;"	m	class:LinkedList	file:	access:private
+LinkedList::popValue	/opt/study_dt_al/recycle/linked.cpp	/^int popValue(){$/;"	f	class:LinkedList	access:public	signature:()
+Livia	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^      My fair niece Rosaline and Livia;$/;"	v
+Livia	/opt/study_dt_al/template/filecleaner/rj.txt	/^      My fair niece Rosaline and Livia;$/;"	v
+MY_LIBS	/opt/study_dt_al/hmwk/lab_4/dll_list/lab4.tar	/^MY_LIBS = $/;"	v
+May	/opt/study_dt_al/hmwk/lab_4/dll_list/sonnet.txt	/^Rough winds do shake the darling buds of May,$/;"	v
+May	/opt/study_dt_al/template/filecleaner/sonnet.txt	/^Rough winds do shake the darling buds of May,$/;"	v
+Montague	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    By thee, old Capulet, and Montague,$/;"	v
+Montague	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Benvolio, nephew to Montague, and friend to Romeo$/;"	v
+Montague	/opt/study_dt_al/template/filecleaner/rj.txt	/^    By thee, old Capulet, and Montague,$/;"	v
+Montague	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Benvolio, nephew to Montague, and friend to Romeo$/;"	v
+Montagues	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    As I hate hell, all Montagues, and thee.$/;"	v
+Montagues	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Capulet; and if you be not of the house of Montagues, I pray$/;"	v
+Montagues	/opt/study_dt_al/template/filecleaner/rj.txt	/^    As I hate hell, all Montagues, and thee.$/;"	v
+Montagues	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Capulet; and if you be not of the house of Montagues, I pray$/;"	v
+MyList	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  MyList();                              \/\/ make an empty list$/;"	p	class:MyList	access:public	signature:()
+MyList	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^MyList<T>::MyList()$/;"	f	class:MyList	signature:()
+MyList	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^class MyList$/;"	c
+MyList::MyList	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  MyList();                              \/\/ make an empty list$/;"	p	class:MyList	access:public	signature:()
+MyList::MyList	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^MyList<T>::MyList()$/;"	f	class:MyList	signature:()
+MyList::back	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  const T & back();                            \/\/ last element (without removing it)$/;"	p	class:MyList	access:public	signature:()
+MyList::back	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^const T & MyList<T>::back()$/;"	f	class:MyList	signature:()
+MyList::curnum	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  int curnum;$/;"	m	class:MyList	access:private
+MyList::empty	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  bool empty();                          \/\/ does list have no elements?$/;"	p	class:MyList	access:public	signature:()
+MyList::empty	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^bool MyList<T>::empty()$/;"	f	class:MyList	signature:()
+MyList::first	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node<T> *first;                        \/\/ one end of the list; access rest through next$/;"	m	class:MyList	access:private
+MyList::front	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  const T & front();                           \/\/ first element (without removing it)$/;"	p	class:MyList	access:public	signature:()
+MyList::front	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^const T & MyList<T>::front()$/;"	f	class:MyList	signature:()
+MyList::insert_ordered	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void insert_ordered(T &);              \/\/ assuming < is defined for T and the list is already sorted$/;"	p	class:MyList	access:public	signature:(T &)
+MyList::insert_ordered	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^void MyList<T>::insert_ordered(T & theData)$/;"	f	class:MyList	signature:(T & theData)
+MyList::last	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node<T> *last;                         \/\/ other end of the list; access rest through prev$/;"	m	class:MyList	access:private
+MyList::pop_back	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void pop_back();                       \/\/ remove item from back$/;"	p	class:MyList	access:public	signature:()
+MyList::pop_back	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^void MyList<T>::pop_back()$/;"	f	class:MyList	signature:()
+MyList::pop_front	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void pop_front();                       \/\/ remove item from front$/;"	p	class:MyList	access:public	signature:()
+MyList::pop_front	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^void MyList<T>::pop_front()$/;"	f	class:MyList	signature:()
+MyList::push_back	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void push_back(T &);                   \/\/ put item at back of list$/;"	p	class:MyList	access:public	signature:(T &)
+MyList::push_back	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^void MyList<T>::push_back(T & theData)$/;"	f	class:MyList	signature:(T & theData)
+MyList::push_front	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void push_front(T &);                  \/\/ put item at front of list$/;"	p	class:MyList	access:public	signature:(T &)
+MyList::push_front	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^void MyList<T>::push_front(T & theData)$/;"	f	class:MyList	signature:(T & theData)
+MyList::size	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  int size();                            \/\/ how many element are in the list?$/;"	p	class:MyList	access:public	signature:()
+MyList::size	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^int MyList<T>::size()$/;"	f	class:MyList	signature:()
+No	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Abr. Quarrel, sir? No, sir.$/;"	v
+No	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Abr. Quarrel, sir? No, sir.$/;"	v
+Node	/opt/study_dt_al/hmwk/9_18/linked_list.cpp	/^struct Node{$/;"	s	file:
+Node	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node() { }$/;"	f	class:Node	access:public	signature:()
+Node	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node(T theData, Node<T> *thePrev, Node<T> *theNext) { data = theData; prev = thePrev; next = theNext; }$/;"	f	class:Node	access:public	signature:(T theData, Node<T> *thePrev, Node<T> *theNext)
+Node	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^class Node$/;"	c
+Node	/opt/study_dt_al/recycle/linked.cpp	/^    struct Node{$/;"	s	class:LinkedList	file:	access:private
+Node::Node	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node() { }$/;"	f	class:Node	access:public	signature:()
+Node::Node	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node(T theData, Node<T> *thePrev, Node<T> *theNext) { data = theData; prev = thePrev; next = theNext; }$/;"	f	class:Node	access:public	signature:(T theData, Node<T> *thePrev, Node<T> *theNext)
+Node::data	/opt/study_dt_al/hmwk/9_18/linked_list.cpp	/^    int data;$/;"	m	struct:Node	file:	access:public
+Node::data	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  T data;$/;"	m	class:Node	access:private
+Node::getData	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  const T & getData() { return data; }$/;"	f	class:Node	access:public	signature:()
+Node::getNext	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node<T> *getNext() { return next; }$/;"	f	class:Node	access:public	signature:()
+Node::getPrev	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node<T> *getPrev() { return prev; }$/;"	f	class:Node	access:public	signature:()
+Node::next	/opt/study_dt_al/hmwk/9_18/linked_list.cpp	/^    Node* next;$/;"	m	struct:Node	file:	access:public
+Node::next	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node<T> *next;  \/\/ link forward$/;"	m	class:Node	access:private
+Node::prev	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node<T> *prev;  \/\/ link back$/;"	m	class:Node	access:private
+Node::print	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void print() { cout << data << endl; }$/;"	f	class:Node	access:public	signature:()
+Node::setData	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void setData(T theData) { data = theData; }$/;"	f	class:Node	access:public	signature:(T theData)
+Node::setNext	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void setNext(Node<T> * theNext) { next = theNext; }$/;"	f	class:Node	access:public	signature:(Node<T> * theNext)
+Node::setPrev	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void setPrev(Node<T> * thePrev) { prev = thePrev; }$/;"	f	class:Node	access:public	signature:(Node<T> * thePrev)
+OBJECTS	/opt/study_dt_al/hmwk/tags	/^OBJECTS	lab_4\/dll_list\/Makefile	\/^OBJECTS = main.o $\/;"	m$/;"	m	class:__anon5	file:	access:private
+ONLY	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^PERSONAL USE ONLY, AND (2) ARE NOT DISTRIBUTED OR USED$/;"	v
+ONLY	/opt/study_dt_al/template/filecleaner/rj.txt	/^PERSONAL USE ONLY, AND (2) ARE NOT DISTRIBUTED OR USED$/;"	v
+Paris	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    But woo her, gentle Paris, get her heart;$/;"	v
+Paris	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^Enter Capulet, County Paris, and [Servant] -the Clown.$/;"	v
+Paris	/opt/study_dt_al/template/filecleaner/rj.txt	/^    But woo her, gentle Paris, get her heart;$/;"	v
+Paris	/opt/study_dt_al/template/filecleaner/rj.txt	/^Enter Capulet, County Paris, and [Servant] -the Clown.$/;"	v
+Prison	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Shut up in Prison, kept without my food,$/;"	v
+Prison	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Shut up in Prison, kept without my food,$/;"	v
+Romeo	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    This is not Romeo, he's some other where.$/;"	v
+Romeo	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Ben. Why, Romeo, art thou mad?$/;"	v
+Romeo	/opt/study_dt_al/template/filecleaner/rj.txt	/^    This is not Romeo, he's some other where.$/;"	v
+Romeo	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Ben. Why, Romeo, art thou mad?$/;"	v
+SRCS	/opt/study_dt_al/hmwk/tags	/^SRCS	lab_4\/dll_list\/Makefile	\/^SRCS = main.cpp $\/;"	m$/;"	m	class:__anon5	file:	access:private
+Shake	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Shake, quoth the dovehouse! 'Twas no need, I trow,$/;"	v
+Shake	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Shake, quoth the dovehouse! 'Twas no need, I trow,$/;"	v
+That	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    That, when she dies, with beauty dies her store.$/;"	v
+That	/opt/study_dt_al/template/filecleaner/rj.txt	/^    That, when she dies, with beauty dies her store.$/;"	v
+Tybalt	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^      Signior Valentio and His cousin Tybalt; $/;"	v
+Tybalt	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Tybalt, nephew to Lady Capulet.$/;"	v
+Tybalt	/opt/study_dt_al/template/filecleaner/rj.txt	/^      Signior Valentio and His cousin Tybalt; $/;"	v
+Tybalt	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Tybalt, nephew to Lady Capulet.$/;"	v
+Valentine	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^      Mercutio and his brother Valentine;$/;"	v
+Valentine	/opt/study_dt_al/template/filecleaner/rj.txt	/^      Mercutio and his brother Valentine;$/;"	v
+Verona	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    In fair Verona, where we lay our scene,$/;"	v
+Verona	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Through fair Verona; find those persons out$/;"	v
+Verona	/opt/study_dt_al/template/filecleaner/rj.txt	/^    In fair Verona, where we lay our scene,$/;"	v
+Verona	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Through fair Verona; find those persons out$/;"	v
+Vitruvio	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^      The lady widow of Vitruvio;$/;"	v
+Vitruvio	/opt/study_dt_al/template/filecleaner/rj.txt	/^      The lady widow of Vitruvio;$/;"	v
+Which	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Which, but their children's end, naught could remove,$/;"	v
+Which	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Which, but their children's end, naught could remove,$/;"	v
+Who	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Who, nothing hurt withal, hiss'd him in scorn.$/;"	v
+Who	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Who, nothing hurt withal, hiss'd him in scorn.$/;"	v
+__anon4::key	/opt/study_dt_al/hmwk/tags	/^BSTNode	project_1\/bst_fast_and_slow\/bst_fast_and_slow.hh	\/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$\/;"	f	class:BSTNode$/;"	m	class:__anon4	file:	access:private
+__anon4::left	/opt/study_dt_al/hmwk/tags	/^BSTNode	project_1\/bst_fast_and_slow\/bst_fast_and_slow.hh	\/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$\/;"	f	class:BSTNode$/;"	m	class:__anon4	file:	access:private
+__anon4::number	/opt/study_dt_al/hmwk/tags	/^BSTNode	project_1\/bst_fast_and_slow\/bst_fast_and_slow.hh	\/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$\/;"	f	class:BSTNode$/;"	m	class:__anon4	file:	access:private
+__anon4::right	/opt/study_dt_al/hmwk/tags	/^BSTNode	project_1\/bst_fast_and_slow\/bst_fast_and_slow.hh	\/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$\/;"	f	class:BSTNode$/;"	m	class:__anon4	file:	access:private
+__anon5::$	/opt/study_dt_al/hmwk/tags	/^Node	9_18\/linked_list.cpp	\/^struct Node{$\/;"	s	file:$/;"	m	class:__anon5	file:	access:private
+__anon5::$	/opt/study_dt_al/hmwk/tags	/^Node	lab_4\/dll_list\/dll_list.hh	\/^  Node(T theData, Node<T> *thePrev, Node<T> *theNext) { data = theData; prev = thePrev; next = theNext; }$\/;"	f	class:Node$/;"	m	class:__anon5	typeref:class:__anon5::__anon6	file:	access:private
+__anon5::OBJECTS	/opt/study_dt_al/hmwk/tags	/^OBJECTS	lab_4\/dll_list\/Makefile	\/^OBJECTS = main.o $\/;"	m$/;"	m	class:__anon5	file:	access:private
+__anon5::SRCS	/opt/study_dt_al/hmwk/tags	/^SRCS	lab_4\/dll_list\/Makefile	\/^SRCS = main.cpp $\/;"	m$/;"	m	class:__anon5	file:	access:private
+__anon5::__anon6::data	/opt/study_dt_al/hmwk/tags	/^Node	lab_4\/dll_list\/dll_list.hh	\/^  Node(T theData, Node<T> *thePrev, Node<T> *theNext) { data = theData; prev = thePrev; next = theNext; }$\/;"	f	class:Node$/;"	m	class:__anon5::__anon6	file:	access:private
+__anon5::__anon6::next	/opt/study_dt_al/hmwk/tags	/^Node	lab_4\/dll_list\/dll_list.hh	\/^  Node(T theData, Node<T> *thePrev, Node<T> *theNext) { data = theData; prev = thePrev; next = theNext; }$\/;"	f	class:Node$/;"	m	class:__anon5::__anon6	file:	access:private
+__anon5::__anon6::prev	/opt/study_dt_al/hmwk/tags	/^Node	lab_4\/dll_list\/dll_list.hh	\/^  Node(T theData, Node<T> *thePrev, Node<T> *theNext) { data = theData; prev = thePrev; next = theNext; }$\/;"	f	class:Node$/;"	m	class:__anon5::__anon6	file:	access:private
+__anon5::addNode	/opt/study_dt_al/hmwk/tags	/^addNode	9_18\/linked_list.cpp	\/^void addNode(struct Node *head,int n){$\/;"	f$/;"	f	class:__anon5	file:	access:private	signature:(struct Node *head,int n)
+about	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    She could have run and waddled all about;$/;"	v
+about	/opt/study_dt_al/template/filecleaner/rj.txt	/^    She could have run and waddled all about;$/;"	v
+abroad	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    A troubled mind drave me to walk abroad;$/;"	v
+abroad	/opt/study_dt_al/template/filecleaner/rj.txt	/^    A troubled mind drave me to walk abroad;$/;"	v
+addNode	/opt/study_dt_al/hmwk/9_18/linked_list.cpp	/^void addNode(struct Node *head,int n){$/;"	f	signature:(struct Node *head,int n)
+addNode	/opt/study_dt_al/hmwk/tags	/^addNode	9_18\/linked_list.cpp	\/^void addNode(struct Node *head,int n){$\/;"	f$/;"	f	class:__anon5	file:	access:private	signature:(struct Node *head,int n)
+addValue	/opt/study_dt_al/recycle/linked.cpp	/^void addValue(int val){$/;"	f	class:LinkedList	access:public	signature:(int val)
+addnumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void addnumber(){ number++; }$/;"	f	class:BSTNode	access:public	signature:()
+addvalue	/opt/study_dt_al/hmwk/plus_practice/ref_value.cpp	/^int addvalue(int a,int b )$/;"	f	signature:(int a,int b )
+addvalue_by_ref	/opt/study_dt_al/hmwk/plus_practice/ref_value.cpp	/^int addvalue_by_ref(int& a,int& b )$/;"	f	signature:(int& a,int& b )
+afternoon	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    And, Montague, come you this afternoon,$/;"	v
+afternoon	/opt/study_dt_al/template/filecleaner/rj.txt	/^    And, Montague, come you this afternoon,$/;"	v
+again	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    We must talk in secret. Nurse, come back again;$/;"	v
+again	/opt/study_dt_al/template/filecleaner/rj.txt	/^    We must talk in secret. Nurse, come back again;$/;"	v
+ago	/opt/study_dt_al/hmwk/lab_4/dll_list/getty.txt	/^Four score and seven years ago, our fathers brought forth$/;"	v
+ago	/opt/study_dt_al/template/filecleaner/getty.txt	/^Four score and seven years ago, our fathers brought forth$/;"	v
+alike	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    In penalty alike; and 'tis not hard, I think,$/;"	v
+alike	/opt/study_dt_al/template/filecleaner/rj.txt	/^    In penalty alike; and 'tis not hard, I think,$/;"	v
+anything	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    O anything, of nothing first create!$/;"	v
+anything	/opt/study_dt_al/template/filecleaner/rj.txt	/^    O anything, of nothing first create!$/;"	v
+arm	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    And, in strong proof of chastity well arm'd,$/;"	v
+arm	/opt/study_dt_al/template/filecleaner/rj.txt	/^    And, in strong proof of chastity well arm'd,$/;"	v
+attend	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    The which if you with patient ears attend,$/;"	v
+attend	/opt/study_dt_al/template/filecleaner/rj.txt	/^    The which if you with patient ears attend,$/;"	v
+awhile	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Wife. This is the matter- Nurse, give leave awhile,$/;"	v
+awhile	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Wife. This is the matter- Nurse, give leave awhile,$/;"	v
+back	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  const T & back();                            \/\/ last element (without removing it)$/;"	p	class:MyList	access:public	signature:()
+back	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^const T & MyList<T>::back()$/;"	f	class:MyList	signature:()
+balanceFactor	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int balanceFactor;$/;"	m	class:AVLNode	access:public
+be	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    And like her most whose merit most shall be;$/;"	v
+be	/opt/study_dt_al/template/filecleaner/rj.txt	/^    And like her most whose merit most shall be;$/;"	v
+beasts	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Will they not hear? What, ho! you men, you beasts, $/;"	v
+beasts	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Will they not hear? What, ho! you men, you beasts, $/;"	v
+beauty	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    For beauty, starv'd with her severity,$/;"	v
+beauty	/opt/study_dt_al/template/filecleaner/rj.txt	/^    For beauty, starv'd with her severity,$/;"	v
+before	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    For even the day before, she broke her brow;$/;"	v
+before	/opt/study_dt_al/template/filecleaner/rj.txt	/^    For even the day before, she broke her brow;$/;"	v
+better	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Samp. Yes, better, sir.$/;"	v
+better	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Samp. Yes, better, sir.$/;"	v
+bills	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Officer. Clubs, bills, and partisans! Strike! beat them down!$/;"	v
+bills	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Officer. Clubs, bills, and partisans! Strike! beat them down!$/;"	v
+bitter	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Of my dug and felt it bitter, pretty fool,$/;"	v
+bitter	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Of my dug and felt it bitter, pretty fool,$/;"	v
+breast	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Griefs of mine own lie heavy in my breast,$/;"	v
+breast	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Griefs of mine own lie heavy in my breast,$/;"	v
+breathe	/opt/study_dt_al/hmwk/lab_4/dll_list/sonnet.txt	/^So long as men can breathe, or eyes can see,$/;"	v
+breathe	/opt/study_dt_al/template/filecleaner/sonnet.txt	/^So long as men can breathe, or eyes can see,$/;"	v
+brow	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    For even the day before, she broke her brow;$/;"	v
+brow	/opt/study_dt_al/template/filecleaner/rj.txt	/^    For even the day before, she broke her brow;$/;"	v
+by	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Ben. Tut! you saw her fair, none else being by,$/;"	v
+by	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Ben. Tut! you saw her fair, none else being by,$/;"	v
+came	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Till the Prince came, who parted either part.$/;"	v
+came	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Till the Prince came, who parted either part.$/;"	v
+char_test	/opt/study_dt_al/hmwk/lab_4/dll_list/main.cpp	/^void char_test()$/;"	f	signature:()
+choler	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Samp. I mean, an we be in choler, we'll draw.$/;"	v
+choler	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Samp. I mean, an we be in choler, we'll draw.$/;"	v
+computeBalance	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int computeBalance(AVLNode<T> *);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+computeBalance	/opt/study_dt_al/hmwk/lab6/avl.hh	/^int AVLTree<T>::computeBalance(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+computeHeight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int computeHeight();                          \/\/ needed for balance factor computation $/;"	p	class:AVLTree	access:public	signature:()
+computeHeight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int computeHeight(AVLNode<T> *);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+computeHeight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^int AVLTree<T>::computeHeight()$/;"	f	class:AVLTree	signature:()
+computeHeight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^int AVLTree<T>::computeHeight(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+computeLevel	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int computeLevel(AVLNode<T> *);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+computeLevel	/opt/study_dt_al/hmwk/lab6/avl.hh	/^int AVLTree<T>::computeLevel(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+contains	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  bool contains(T &);                           \/\/ does this AVL tree contain a certain key?$/;"	p	class:AVLTree	access:public	signature:(T &)
+contains	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  bool contains(T &, AVLNode<T> *);             $/;"	p	class:AVLTree	access:public	signature:(T &, AVLNode<T> *)
+contains	/opt/study_dt_al/hmwk/lab6/avl.hh	/^bool AVLTree<T>::contains(T & key)$/;"	f	class:AVLTree	signature:(T & key)
+contains	/opt/study_dt_al/hmwk/lab6/avl.hh	/^bool AVLTree<T>::contains(T & key, AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(T & key, AVLNode<T> * t)
+contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  bool contains(BSTNode<T> *node,T & );$/;"	p	class:BSTree_Fast	access:private	signature:(BSTNode<T> *node,T & )
+contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  bool contains(T &);                           \/\/ does this BST contain a certain key?$/;"	p	class:BSTree_Fast	access:public	signature:(T &)
+contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  bool contains(T &);                           \/\/ does this BST contain a certain key?$/;"	p	class:BSTree_Slow	access:public	signature:(T &)
+contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^bool BSTree_Fast<T>::contains(BSTNode<T> *node,T & key){$/;"	f	class:BSTree_Fast	signature:(BSTNode<T> *node,T & key)
+contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^bool BSTree_Fast<T>::contains(T & key)$/;"	f	class:BSTree_Fast	signature:(T & key)
+contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^bool BSTree_Slow<T>::contains(T & key)$/;"	f	class:BSTree_Slow	signature:(T & key)
+contains	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  bool contains(T &);                           \/\/ does this BST contain a certain key?$/;"	p	class:BSTree_Fast	access:public	signature:(T &)
+contains	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  bool contains(T &);                           \/\/ does this BST contain a certain key?$/;"	p	class:BSTree_Slow	access:public	signature:(T &)
+contains	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^bool BSTree_Fast<T>::contains(T & key)$/;"	f	class:BSTree_Fast	signature:(T & key)
+contains	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^bool BSTree_Slow<T>::contains(T & key)$/;"	f	class:BSTree_Slow	signature:(T & key)
+cousin	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    In sadness, cousin, I do love a woman.$/;"	v
+cousin	/opt/study_dt_al/template/filecleaner/rj.txt	/^    In sadness, cousin, I do love a woman.$/;"	v
+coz	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Ben. A right fair mark, fair coz, is soonest hit.$/;"	v
+coz	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Ben. No, coz, I rather weep.$/;"	v
+coz	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Ben. A right fair mark, fair coz, is soonest hit.$/;"	v
+coz	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Ben. No, coz, I rather weep.$/;"	v
+create_fbst_by_file	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^BSTree_Fast<string> create_fbst_by_file(string fileName){$/;"	f	signature:(string fileName)
+create_slow_by_file	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^BSTree_Slow<string> create_slow_by_file(string fileName){$/;"	f	signature:(string fileName)
+curnum	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  int curnum;$/;"	m	class:MyList	access:private
+currentHeight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int currentHeight;   \/\/ used to speed up computation of ancestor node heights$/;"	m	class:AVLNode	access:public
+d	/opt/study_dt_al/hmwk/lab_4/dll_list/sonnet.txt	/^And oft' is his gold complexion dimm'd;$/;"	v
+d	/opt/study_dt_al/template/filecleaner/sonnet.txt	/^And oft' is his gold complexion dimm'd;$/;"	v
+data	/opt/study_dt_al/hmwk/9_18/linked_list.cpp	/^    int data;$/;"	m	struct:Node	file:	access:public
+data	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  T data;$/;"	m	class:Node	access:private
+data	/opt/study_dt_al/hmwk/tags	/^Node	lab_4\/dll_list\/dll_list.hh	\/^  Node(T theData, Node<T> *thePrev, Node<T> *theNext) { data = theData; prev = thePrev; next = theNext; }$\/;"	f	class:Node$/;"	m	class:__anon5::__anon6	file:	access:private
+daughters	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^      Mine uncle Capulet, his wife, and daughters;$/;"	v
+daughters	/opt/study_dt_al/template/filecleaner/rj.txt	/^      Mine uncle Capulet, his wife, and daughters;$/;"	v
+day	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Of all the days of the year, upon that day;$/;"	v
+day	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Of all the days of the year, upon that day;$/;"	v
+dead	/opt/study_dt_al/hmwk/lab_4/dll_list/getty.txt	/^we cannot hallow this ground.  The brave men, living and dead,$/;"	v
+dead	/opt/study_dt_al/template/filecleaner/getty.txt	/^we cannot hallow this ground.  The brave men, living and dead,$/;"	v
+death	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Once more, on pain of death, all men depart. $/;"	v
+death	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Once more, on pain of death, all men depart. $/;"	v
+declines	/opt/study_dt_al/hmwk/lab_4/dll_list/sonnet.txt	/^And every fair from fair sometime declines,$/;"	v
+declines	/opt/study_dt_al/template/filecleaner/sonnet.txt	/^And every fair from fair sometime declines,$/;"	v
+deleteNode	/opt/study_dt_al/hmwk/9_18/linked_list.cpp	/^bool deleteNode(struct Node **head,Node *ptrDel){$/;"	f	signature:(struct Node **head,Node *ptrDel)
+die	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    And these, who, often drown'd, could never die,$/;"	v
+die	/opt/study_dt_al/template/filecleaner/rj.txt	/^    And these, who, often drown'd, could never die,$/;"	v
+dies	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    That, when she dies, with beauty dies her store.$/;"	v
+dies	/opt/study_dt_al/template/filecleaner/rj.txt	/^    That, when she dies, with beauty dies her store.$/;"	v
+dignity	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Chor. Two households, both alike in dignity,$/;"	v
+dignity	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Chor. Two households, both alike in dignity,$/;"	v
+discovery	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    So far from sounding and discovery,$/;"	v
+discovery	/opt/study_dt_al/template/filecleaner/rj.txt	/^    So far from sounding and discovery,$/;"	v
+discreet	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    What is it else? A madness most discreet,$/;"	v
+discreet	/opt/study_dt_al/template/filecleaner/rj.txt	/^    What is it else? A madness most discreet,$/;"	v
+display	/opt/study_dt_al/hmwk/9_18/linked_list.cpp	/^void display(struct Node *head){$/;"	f	signature:(struct Node *head)
+drawn	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Tyb. What, drawn, and talk of peace? I hate the word$/;"	v
+drawn	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Tyb. What, drawn, and talk of peace? I hate the word$/;"	v
+drive_fast_by_file	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void drive_fast_by_file(string fileName){$/;"	f	signature:(string fileName)
+drive_fast_outtime	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void drive_fast_outtime(string fileName){$/;"	f	signature:(string fileName)
+drive_slow_by_file	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void drive_slow_by_file(string fileName){$/;"	f	signature:(string fileName)
+drive_slow_outtime	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void drive_slow_outtime(string fileName){$/;"	f	signature:(string fileName)
+driver	/opt/study_dt_al/hmwk/lab6/main.cpp	/^void driver(char *filename)$/;"	f	signature:(char *filename)
+drown	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    And these, who, often drown'd, could never die,$/;"	v
+drown	/opt/study_dt_al/template/filecleaner/rj.txt	/^    And these, who, often drown'd, could never die,$/;"	v
+dug	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    For I had then laid wormwood to my dug,$/;"	v
+dug	/opt/study_dt_al/template/filecleaner/rj.txt	/^    For I had then laid wormwood to my dug,$/;"	v
+ears	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Which, as he breath'd defiance to my ears,$/;"	v
+ears	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Which, as he breath'd defiance to my ears,$/;"	v
+empty	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  bool empty();                          \/\/ does list have no elements?$/;"	p	class:MyList	access:public	signature:()
+empty	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^bool MyList<T>::empty()$/;"	f	class:MyList	signature:()
+eye	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Herself pois'd with herself in either eye;$/;"	v
+eye	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Take thou some new infection to thy eye,$/;"	v
+eye	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Herself pois'd with herself in either eye;$/;"	v
+eye	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Take thou some new infection to thy eye,$/;"	v
+fair	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    She is too fair, too wise, wisely too fair,$/;"	v
+fair	/opt/study_dt_al/template/filecleaner/rj.txt	/^    She is too fair, too wise, wisely too fair,$/;"	v
+feast	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    That I will show you shining at this feast,$/;"	v
+feast	/opt/study_dt_al/template/filecleaner/rj.txt	/^    That I will show you shining at this feast,$/;"	v
+fellow	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Rom. Stay, fellow; I can read.                       He reads.$/;"	v
+fellow	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Rom. Stay, fellow; I can read.                       He reads.$/;"	v
+findMax	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  const T & findMax();                          \/\/ what is the biggest key in the AVL tree?$/;"	p	class:AVLTree	access:public	signature:()
+findMax	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  const T & findMax(AVLNode<T> *);  $/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+findMax	/opt/study_dt_al/hmwk/lab6/avl.hh	/^const T & AVLTree<T>::findMax()$/;"	f	class:AVLTree	signature:()
+findMax	/opt/study_dt_al/hmwk/lab6/avl.hh	/^const T & AVLTree<T>::findMax(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+findMax	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  const T & findMax();                          \/\/ what is the smallest key in the BST?$/;"	p	class:BSTree_Fast	access:public	signature:()
+findMax	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  const T & findMax();                          \/\/ what is the smallest key in the BST?$/;"	p	class:BSTree_Slow	access:public	signature:()
+findMax	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^const T & BSTree_Fast<T>::findMax()$/;"	f	class:BSTree_Fast	signature:()
+findMax	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^const T & BSTree_Slow<T>::findMax()$/;"	f	class:BSTree_Slow	signature:()
+findMax	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  const T & findMax();                          \/\/ what is the smallest key in the BST?$/;"	p	class:BSTree_Fast	access:public	signature:()
+findMax	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  const T & findMax();                          \/\/ what is the smallest key in the BST?$/;"	p	class:BSTree_Slow	access:public	signature:()
+findMax	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^const T & BSTree_Fast<T>::findMax()$/;"	f	class:BSTree_Fast	signature:()
+findMax	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^const T & BSTree_Slow<T>::findMax()$/;"	f	class:BSTree_Slow	signature:()
+findMin	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  const T & findMin();                          \/\/ what is the smallest key in the AVL tree?$/;"	p	class:AVLTree	access:public	signature:()
+findMin	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  const T & findMin(AVLNode<T> *);  $/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+findMin	/opt/study_dt_al/hmwk/lab6/avl.hh	/^const T & AVLTree<T>::findMin()$/;"	f	class:AVLTree	signature:()
+findMin	/opt/study_dt_al/hmwk/lab6/avl.hh	/^const T & AVLTree<T>::findMin(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+fire	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Feather of lead, bright smoke, cold fire, sick health!$/;"	v
+fire	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Feather of lead, bright smoke, cold fire, sick health!$/;"	v
+fires	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Maintains such falsehood, then turn tears to fires; $/;"	v
+fires	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Maintains such falsehood, then turn tears to fires; $/;"	v
+first	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node<T> *first;                        \/\/ one end of the list; access rest through next$/;"	m	class:MyList	access:private
+food	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Shut up in Prison, kept without my food,$/;"	v
+food	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Shut up in Prison, kept without my food,$/;"	v
+fool	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Of my dug and felt it bitter, pretty fool,$/;"	v
+fool	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Of my dug and felt it bitter, pretty fool,$/;"	v
+format	/opt/study_dt_al/hmwk/tags	/^!_TAG_FILE_FORMAT	2	\/extended format; --format=1 will not append ;" to lines\/$/;"	v
+found	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Which then most sought where most might not be found,$/;"	v
+found	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Which then most sought where most might not be found,$/;"	v
+fourteen	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    On Lammas Eve at night shall she be fourteen;$/;"	v
+fourteen	/opt/study_dt_al/template/filecleaner/rj.txt	/^    On Lammas Eve at night shall she be fourteen;$/;"	v
+front	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  const T & front();                           \/\/ first element (without removing it)$/;"	p	class:MyList	access:public	signature:()
+front	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^const T & MyList<T>::front()$/;"	f	class:MyList	signature:()
+gall	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    A choking gall, and a preserving sweet. $/;"	v
+gall	/opt/study_dt_al/template/filecleaner/rj.txt	/^    A choking gall, and a preserving sweet. $/;"	v
+getData	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  const T & getData() { return data; }$/;"	f	class:Node	access:public	signature:()
+getKey	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  const T & getKey() { return key; }$/;"	f	class:AVLNode	access:public	signature:()
+getKey	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  const T & getKey() { return key; }$/;"	f	class:BSTNode	access:public	signature:()
+getKey	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  const T & getKey() { return key; }$/;"	f	class:BSTNode	access:public	signature:()
+getLeft	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> * & getLeft() { return left; }$/;"	f	class:AVLNode	access:public	signature:()
+getLeft	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *getLeft() { return left; }$/;"	f	class:BSTNode	access:public	signature:()
+getLeft	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *getLeft() { return left; }$/;"	f	class:BSTNode	access:public	signature:()
+getMaxDepth	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getMaxDepth() { return maxDepth; }$/;"	f	class:BSTree_Fast	access:public	signature:()
+getMaxDepth	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getMaxDepth() { return maxDepth; }$/;"	f	class:BSTree_Fast	access:public	signature:()
+getNext	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node<T> *getNext() { return next; }$/;"	f	class:Node	access:public	signature:()
+getNumKeys	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int getNumKeys() { return numKeys; }$/;"	f	class:AVLTree	access:public	signature:()
+getNumber	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int getNumber() { return number; }$/;"	f	class:AVLNode	access:public	signature:()
+getNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getNumber(){ return number; }$/;"	f	class:BSTNode	access:public	signature:()
+getParent	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> * & getParent() { return parent; }$/;"	f	class:AVLNode	access:public	signature:()
+getPrev	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node<T> *getPrev() { return prev; }$/;"	f	class:Node	access:public	signature:()
+getRight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> * & getRight() { return right; }$/;"	f	class:AVLNode	access:public	signature:()
+getRight	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *getRight() { return right; }$/;"	f	class:BSTNode	access:public	signature:()
+getRight	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *getRight() { return right; }$/;"	f	class:BSTNode	access:public	signature:()
+getTotalNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getTotalNumber();$/;"	p	class:BSTree_Fast	access:public	signature:()
+getTotalNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getTotalNumber(BSTNode<T> *node);$/;"	p	class:BSTree_Fast	access:private	signature:(BSTNode<T> *node)
+getTotalNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^int BSTree_Fast<T>::getTotalNumber(){$/;"	f	class:BSTree_Fast	signature:()
+getTotalNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^int BSTree_Fast<T>::getTotalNumber(BSTNode<T> *node){$/;"	f	class:BSTree_Fast	signature:(BSTNode<T> *node)
+getUniqueNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getUniqueNumber();$/;"	p	class:BSTree_Fast	access:public	signature:()
+getUniqueNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int getUniqueNumber(BSTNode<T> *node);$/;"	p	class:BSTree_Fast	access:private	signature:(BSTNode<T> *node)
+getUniqueNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^int BSTree_Fast<T>::getUniqueNumber(){$/;"	f	class:BSTree_Fast	signature:()
+getUniqueNumber	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^int BSTree_Fast<T>::getUniqueNumber(BSTNode<T> *node){$/;"	f	class:BSTree_Fast	signature:(BSTNode<T> *node)
+giddy	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Turn giddy, and be holp by backward turning;$/;"	v
+giddy	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Turn giddy, and be holp by backward turning;$/;"	v
+guest	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Whereto I have invited many a guest,$/;"	v
+guest	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Whereto I have invited many a guest,$/;"	v
+he	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    But he, his own affections' counsellor,$/;"	v
+he	/opt/study_dt_al/template/filecleaner/rj.txt	/^    But he, his own affections' counsellor,$/;"	v
+head	/opt/study_dt_al/recycle/linked.cpp	/^    Node *head;$/;"	m	class:LinkedList	file:	access:private
+heart	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    But woo her, gentle Paris, get her heart;$/;"	v
+heart	/opt/study_dt_al/template/filecleaner/rj.txt	/^    But woo her, gentle Paris, get her heart;$/;"	v
+hell	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    As I hate hell, all Montagues, and thee.$/;"	v
+hell	/opt/study_dt_al/template/filecleaner/rj.txt	/^    As I hate hell, all Montagues, and thee.$/;"	v
+here	/opt/study_dt_al/hmwk/lab_4/dll_list/getty.txt	/^what we say here, but it can never forget what they did here.$/;"	v
+here	/opt/study_dt_al/template/filecleaner/getty.txt	/^what we say here, but it can never forget what they did here.$/;"	v
+heretics	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Transparent heretics, be burnt for liars!$/;"	v
+heretics	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Transparent heretics, be burnt for liars!$/;"	v
+his	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Pursu'd my humour, not Pursuing his,$/;"	v
+his	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Pursu'd my humour, not Pursuing his,$/;"	v
+houses	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Citizens of Verona; Gentlemen and Gentlewomen of both houses;$/;"	v
+houses	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Citizens of Verona; Gentlemen and Gentlewomen of both houses;$/;"	v
+initNode	/opt/study_dt_al/hmwk/9_18/linked_list.cpp	/^void initNode (struct Node *head ,int n){$/;"	f	signature:(struct Node *head ,int n)
+insert	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> *insert(T &, AVLNode<T> *, AVLNode<T> *); $/;"	p	class:AVLTree	access:public	signature:(T &, AVLNode<T> *, AVLNode<T> *)
+insert	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void insert(T &);                             \/\/ put a key into the AVL tree $/;"	p	class:AVLTree	access:public	signature:(T &)
+insert	/opt/study_dt_al/hmwk/lab6/avl.hh	/^AVLNode<T> *AVLTree<T>::insert(T & key, AVLNode<T> * t, AVLNode<T> * parent)$/;"	f	class:AVLTree	signature:(T & key, AVLNode<T> * t, AVLNode<T> * parent)
+insert	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::insert(T & key)$/;"	f	class:AVLTree	signature:(T & key)
+insert	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void insert(T &);                             \/\/ put a key into the BST $/;"	p	class:BSTree_Fast	access:public	signature:(T &)
+insert	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void insert(T &);                             \/\/ put a key into the BST $/;"	p	class:BSTree_Slow	access:public	signature:(T &)
+insert	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Fast<T>::insert(T & key)$/;"	f	class:BSTree_Fast	signature:(T & key)
+insert	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Slow<T>::insert(T & key)$/;"	f	class:BSTree_Slow	signature:(T & key)
+insert	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void insert(T &);                             \/\/ put a key into the BST $/;"	p	class:BSTree_Fast	access:public	signature:(T &)
+insert	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void insert(T &);                             \/\/ put a key into the BST $/;"	p	class:BSTree_Slow	access:public	signature:(T &)
+insert	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Fast<T>::insert(T & key)$/;"	f	class:BSTree_Fast	signature:(T & key)
+insert	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Slow<T>::insert(T & key)$/;"	f	class:BSTree_Slow	signature:(T & key)
+insertFileWords	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void insertFileWords(char *);$/;"	p	class:AVLTree	access:public	signature:(char *)
+insertFileWords	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::insertFileWords(char *filename)$/;"	f	class:AVLTree	signature:(char *filename)
+insertFront	/opt/study_dt_al/hmwk/9_18/linked_list.cpp	/^void insertFront(struct Node **head,int n){$/;"	f	signature:(struct Node **head,int n)
+insertNode	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int insertNode(BSTNode<T> *node,T &,int curtime);$/;"	p	class:BSTree_Fast	access:private	signature:(BSTNode<T> *node,T &,int curtime)
+insertNode	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^int BSTree_Fast<T>::insertNode(BSTNode<T> *node,T & key,int curtime ){$/;"	f	class:BSTree_Fast	signature:(BSTNode<T> *node,T & key,int curtime )
+insert_ordered	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void insert_ordered(T &);              \/\/ assuming < is defined for T and the list is already sorted$/;"	p	class:MyList	access:public	signature:(T &)
+insert_ordered	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^void MyList<T>::insert_ordered(T & theData)$/;"	f	class:MyList	signature:(T & theData)
+is	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Rom. Not mad, but bound more than a madman is;$/;"	v
+is	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Rom. Not mad, but bound more than a madman is;$/;"	v
+it	/opt/study_dt_al/hmwk/lab_4/dll_list/getty.txt	/^who struggled here have consecrated it, far above our poor power$/;"	v
+it	/opt/study_dt_al/template/filecleaner/getty.txt	/^who struggled here have consecrated it, far above our poor power$/;"	v
+j	/opt/study_dt_al/hmwk/lab_4/dll_list/lab4.tar	/^  int j=1;$/;"	v
+key	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  T key;$/;"	m	class:AVLNode	access:private
+key	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  T key;$/;"	m	class:BSTNode	access:private
+key	/opt/study_dt_al/hmwk/tags	/^BSTNode	project_1\/bst_fast_and_slow\/bst_fast_and_slow.hh	\/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$\/;"	f	class:BSTNode$/;"	m	class:__anon4	file:	access:private
+key	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  T key;$/;"	m	class:BSTNode	access:private
+last	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node<T> *last;                         \/\/ other end of the list; access rest through prev$/;"	m	class:MyList	access:private
+left	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> *left;   \/\/ link to left child$/;"	m	class:AVLNode	access:private
+left	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *left;   \/\/ link to left child$/;"	m	class:BSTNode	access:private
+left	/opt/study_dt_al/hmwk/tags	/^BSTNode	project_1\/bst_fast_and_slow\/bst_fast_and_slow.hh	\/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$\/;"	f	class:BSTNode$/;"	m	class:__anon4	file:	access:private
+left	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *left;   \/\/ link to left child$/;"	m	class:BSTNode	access:private
+liberty	/opt/study_dt_al/hmwk/lab_4/dll_list/getty.txt	/^upon this continent a new nation:  conceived in liberty, and$/;"	v
+liberty	/opt/study_dt_al/template/filecleaner/getty.txt	/^upon this continent a new nation:  conceived in liberty, and$/;"	v
+live	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Greg. Ay, while you live, draw your neck out of collar.$/;"	v
+live	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Greg. Ay, while you live, draw your neck out of collar.$/;"	v
+lord	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    But now, my lord, what say you to my suit?$/;"	v
+lord	/opt/study_dt_al/template/filecleaner/rj.txt	/^    But now, my lord, what say you to my suit?$/;"	v
+love	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Such as I love; and you among the store,$/;"	v
+love	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Such as I love; and you among the store,$/;"	v
+madam	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    To hear true shrift. Come, madam, let's away, $/;"	v
+madam	/opt/study_dt_al/template/filecleaner/rj.txt	/^    To hear true shrift. Come, madam, let's away, $/;"	v
+maids	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Samp. Ay, the heads of the maids, or their maidenheads.$/;"	v
+maids	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Samp. Ay, the heads of the maids, or their maidenheads.$/;"	v
+main	/opt/study_dt_al/hmwk/9_18/linked_list.cpp	/^int main()$/;"	f	signature:()
+main	/opt/study_dt_al/hmwk/lab6/main.cpp	/^int main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
+main	/opt/study_dt_al/hmwk/lab_4/dll_list/main.cpp	/^int main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
+main	/opt/study_dt_al/hmwk/plus_practice/arstr.cpp	/^int main()$/;"	f	signature:()
+main	/opt/study_dt_al/hmwk/plus_practice/boo.cpp	/^int main()$/;"	f	signature:()
+main	/opt/study_dt_al/hmwk/plus_practice/point.cpp	/^int main()$/;"	f	signature:()
+main	/opt/study_dt_al/hmwk/plus_practice/ref_value.cpp	/^int main()$/;"	f	signature:()
+main	/opt/study_dt_al/hmwk/plus_practice/vector.cpp	/^int main(){$/;"	f	signature:()
+main	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^int main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
+main	/opt/study_dt_al/recycle/linked.cpp	/^int main(){$/;"	f	signature:()
+main	/opt/study_dt_al/template/bst_fast_and_slow/main.cpp	/^int main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
+main	/opt/study_dt_al/template/filecleaner/main.cpp	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+man	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Ben. Tut, man, one fire burns out another's burning;$/;"	v
+man	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Ben. Tut, man, one fire burns out another's burning;$/;"	v
+many	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Which, on more view of many, mine, being one,$/;"	v
+many	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Which, on more view of many, mine, being one,$/;"	v
+marry	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    That shall she, marry; I remember it well.$/;"	v
+marry	/opt/study_dt_al/template/filecleaner/rj.txt	/^    That shall she, marry; I remember it well.$/;"	v
+maxDepth	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int maxDepth;$/;"	m	class:BSTree_Fast	access:private
+maxDepth	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int maxDepth;$/;"	m	class:BSTree_Fast	access:private
+me	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    You, Capulet, shall go along with me;$/;"	v
+me	/opt/study_dt_al/template/filecleaner/rj.txt	/^    You, Capulet, shall go along with me;$/;"	v
+men	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Will they not hear? What, ho! you men, you beasts, $/;"	v
+men	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Will they not hear? What, ho! you men, you beasts, $/;"	v
+mine	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Which, on more view of many, mine, being one,$/;"	v
+mine	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Which, on more view of many, mine, being one,$/;"	v
+miss	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    What here shall miss, our toil shall strive to mend.$/;"	v
+miss	/opt/study_dt_al/template/filecleaner/rj.txt	/^    What here shall miss, our toil shall strive to mend.$/;"	v
+more	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Came more and more, and fought on part and part,$/;"	v
+more	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    One more, most welcome, makes my number more.$/;"	v
+more	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Came more and more, and fought on part and part,$/;"	v
+more	/opt/study_dt_al/template/filecleaner/rj.txt	/^    One more, most welcome, makes my number more.$/;"	v
+moved	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Therefore, if thou art moved, thou runn'st away.$/;"	v
+moved	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Therefore, if thou art moved, thou runn'st away.$/;"	v
+mutiny	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    From ancient grudge break to new mutiny,$/;"	v
+mutiny	/opt/study_dt_al/template/filecleaner/rj.txt	/^    From ancient grudge break to new mutiny,$/;"	v
+nephew	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Speak, nephew, were you by when it began?$/;"	v
+nephew	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Speak, nephew, were you by when it began?$/;"	v
+nets	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    his nets; but I am sent to find those persons whose names are$/;"	v
+nets	/opt/study_dt_al/template/filecleaner/rj.txt	/^    his nets; but I am sent to find those persons whose names are$/;"	v
+next	/opt/study_dt_al/hmwk/9_18/linked_list.cpp	/^    Node* next;$/;"	m	struct:Node	file:	access:public
+next	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node<T> *next;  \/\/ link forward$/;"	m	class:Node	access:private
+next	/opt/study_dt_al/hmwk/tags	/^Node	lab_4\/dll_list\/dll_list.hh	\/^  Node(T theData, Node<T> *thePrev, Node<T> *theNext) { data = theData; prev = thePrev; next = theNext; }$\/;"	f	class:Node$/;"	m	class:__anon5::__anon6	file:	access:private
+next	/opt/study_dt_al/recycle/linked.cpp	/^        Node *next;$/;"	m	struct:LinkedList::Node	file:	access:public
+nieces	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^      Signior Placentio and His lovely nieces;$/;"	v
+nieces	/opt/study_dt_al/template/filecleaner/rj.txt	/^      Signior Placentio and His lovely nieces;$/;"	v
+no	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Ben. Groan? Why, no;$/;"	v
+no	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Ben. Groan? Why, no;$/;"	v
+node_just_inserted	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> *node_just_inserted;               \/\/ pointer to the node last inserted$/;"	m	class:AVLTree	access:public
+not	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Yet tell me not, for I have heard it all.$/;"	v
+not	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Yet tell me not, for I have heard it all.$/;"	v
+numKeys	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int numKeys;$/;"	m	class:AVLTree	access:private
+numNodes	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int numNodes;$/;"	m	class:AVLTree	access:private
+number	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int number;         \/\/ how many occurrences of key there are$/;"	m	class:AVLNode	access:private
+number	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    May stand in number, though in reck'ning none.$/;"	v
+number	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int number;         \/\/ how many occurrences of key there are$/;"	m	class:BSTNode	access:private
+number	/opt/study_dt_al/hmwk/tags	/^BSTNode	project_1\/bst_fast_and_slow\/bst_fast_and_slow.hh	\/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$\/;"	f	class:BSTNode$/;"	m	class:__anon4	file:	access:private
+number	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  int number;         \/\/ how many occurrences of key there are$/;"	m	class:BSTNode	access:private
+number	/opt/study_dt_al/template/filecleaner/rj.txt	/^    May stand in number, though in reck'ning none.$/;"	v
+old	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    To wield old partisans, in hands as old,$/;"	v
+old	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Nurse. Now, by my maidenhead at twelve year old,$/;"	v
+old	/opt/study_dt_al/template/filecleaner/rj.txt	/^    To wield old partisans, in hands as old,$/;"	v
+old	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Nurse. Now, by my maidenhead at twelve year old,$/;"	v
+one	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Which, on more view of many, mine, being one,$/;"	v
+one	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Which, on more view of many, mine, being one,$/;"	v
+ordering_test	/opt/study_dt_al/hmwk/lab_4/dll_list/main.cpp	/^void ordering_test(string fileName)$/;"	f	signature:(string fileName)
+output_fast	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void output_fast(BSTree_Fast<string> *bst){$/;"	f	signature:(BSTree_Fast<string> *bst)
+output_slow	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void output_slow(BSTree_Slow<string> *bst){$/;"	f	signature:(BSTree_Slow<string> *bst)
+owest	/opt/study_dt_al/hmwk/lab_4/dll_list/sonnet.txt	/^Nor lose possession of that fair thou owest;$/;"	v
+owest	/opt/study_dt_al/template/filecleaner/sonnet.txt	/^Nor lose possession of that fair thou owest;$/;"	v
+p	/opt/study_dt_al/template/filecleaner/filecleaner	/^L/;"	v
+parent	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> *parent; \/\/ link to parent$/;"	m	class:AVLNode	access:private
+part	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Came more and more, and fought on part and part,$/;"	v
+part	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Came more and more, and fought on part and part,$/;"	v
+partisans	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    To wield old partisans, in hands as old,$/;"	v
+partisans	/opt/study_dt_al/template/filecleaner/rj.txt	/^    To wield old partisans, in hands as old,$/;"	v
+peace	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Prince. Rebellious subjects, enemies to peace,$/;"	v
+peace	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Prince. Rebellious subjects, enemies to peace,$/;"	v
+popValue	/opt/study_dt_al/recycle/linked.cpp	/^int popValue(){$/;"	f	class:LinkedList	access:public	signature:()
+pop_back	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void pop_back();                       \/\/ remove item from back$/;"	p	class:MyList	access:public	signature:()
+pop_back	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^void MyList<T>::pop_back()$/;"	f	class:MyList	signature:()
+pop_front	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void pop_front();                       \/\/ remove item from front$/;"	p	class:MyList	access:public	signature:()
+pop_front	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^void MyList<T>::pop_front()$/;"	f	class:MyList	signature:()
+prepar	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    The fiery Tybalt, with his sword prepar'd;$/;"	v
+prepar	/opt/study_dt_al/template/filecleaner/rj.txt	/^    The fiery Tybalt, with his sword prepar'd;$/;"	v
+prev	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  Node<T> *prev;  \/\/ link back$/;"	m	class:Node	access:private
+prev	/opt/study_dt_al/hmwk/tags	/^Node	lab_4\/dll_list\/dll_list.hh	\/^  Node(T theData, Node<T> *thePrev, Node<T> *theNext) { data = theData; prev = thePrev; next = theNext; }$\/;"	f	class:Node$/;"	m	class:__anon5::__anon6	file:	access:private
+print	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void print() { cout << key << " (" << number << ")" << endl; }$/;"	f	class:AVLNode	access:public	signature:()
+print	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void print() { cout << data << endl; }$/;"	f	class:Node	access:public	signature:()
+print	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void print() { cout << key << " (" << number << ")" << endl; }$/;"	f	class:BSTNode	access:public	signature:()
+print	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void print();                                 \/\/ print$/;"	p	class:BSTree_Slow	access:public	signature:()
+print	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void print();$/;"	p	class:BSTree_Fast	access:public	signature:()
+print	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Fast<T>::print(){$/;"	f	class:BSTree_Fast	signature:()
+print	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Slow<T>::print()$/;"	f	class:BSTree_Slow	signature:()
+print	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void print() { cout << key << " (" << number << ")" << endl; }$/;"	f	class:BSTNode	access:public	signature:()
+print_column	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int print_column;    \/\/ used by pretty print$/;"	m	class:AVLNode	access:public
+print_inorder	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void print_inorder();$/;"	p	class:AVLTree	access:public	signature:()
+print_inorder	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void print_inorder(AVLNode<T> *);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+print_inorder	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::print_inorder()$/;"	f	class:AVLTree	signature:()
+print_inorder	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::print_inorder(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+print_level_and_pretty	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void print_level_and_pretty();$/;"	p	class:AVLTree	access:public	signature:()
+print_level_and_pretty	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::print_level_and_pretty()$/;"	f	class:AVLTree	signature:()
+print_levelorder	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void print_levelorder();$/;"	p	class:AVLTree	access:public	signature:()
+print_levelorder	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::print_levelorder()$/;"	f	class:AVLTree	signature:()
+print_node	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void print_node(BSTNode<T> *node );$/;"	p	class:BSTree_Fast	access:private	signature:(BSTNode<T> *node )
+print_node	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^void BSTree_Fast<T>::print_node(BSTNode<T> *node ){$/;"	f	class:BSTree_Fast	signature:(BSTNode<T> *node )
+print_pretty	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void print_pretty();$/;"	p	class:AVLTree	access:public	signature:()
+print_pretty	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::print_pretty()$/;"	f	class:AVLTree	signature:()
+propagate	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Which thou wilt propagate, to have it prest$/;"	v
+propagate	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Which thou wilt propagate, to have it prest$/;"	v
+purg	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Being purg'd, a fire sparkling in lovers' eyes;$/;"	v
+purg	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Being purg'd, a fire sparkling in lovers' eyes;$/;"	v
+push_back	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void push_back(T &);                   \/\/ put item at back of list$/;"	p	class:MyList	access:public	signature:(T &)
+push_back	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^void MyList<T>::push_back(T & theData)$/;"	f	class:MyList	signature:(T & theData)
+push_front	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void push_front(T &);                  \/\/ put item at front of list$/;"	p	class:MyList	access:public	signature:(T &)
+push_front	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^void MyList<T>::push_front(T & theData)$/;"	f	class:MyList	signature:(T & theData)
+rather	/opt/study_dt_al/hmwk/lab_4/dll_list/getty.txt	/^It is for us the living, rather, to be dedicated here to the unfinished$/;"	v
+rather	/opt/study_dt_al/template/filecleaner/getty.txt	/^It is for us the living, rather, to be dedicated here to the unfinished$/;"	v
+readme	/opt/study_dt_al/hmwk/lab_4/dll_list/main.cpp	/^void readme(){$/;"	f	signature:()
+remember	/opt/study_dt_al/hmwk/lab_4/dll_list/getty.txt	/^to add or detract.  The world will little note, nor long remember,$/;"	v
+remember	/opt/study_dt_al/template/filecleaner/getty.txt	/^to add or detract.  The world will little note, nor long remember,$/;"	v
+reverse_char_test	/opt/study_dt_al/hmwk/lab_4/dll_list/main.cpp	/^void reverse_char_test()$/;"	f	signature:()
+reverse_string_test	/opt/study_dt_al/hmwk/lab_4/dll_list/main.cpp	/^void reverse_string_test()$/;"	f	signature:()
+right	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> *right;  \/\/ link to right child$/;"	m	class:AVLNode	access:private
+right	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *right;  \/\/ link to right child$/;"	m	class:BSTNode	access:private
+right	/opt/study_dt_al/hmwk/tags	/^BSTNode	project_1\/bst_fast_and_slow\/bst_fast_and_slow.hh	\/^  BSTNode(T theKey, BSTNode<T> *theLeft, BSTNode<T> *theRight) { key = theKey; left = theLeft; right = theRight; number = 1; }$\/;"	f	class:BSTNode$/;"	m	class:__anon4	file:	access:private
+right	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *right;  \/\/ link to right child$/;"	m	class:BSTNode	access:private
+root	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  AVLNode<T> *root;                             \/\/ pointer to the node at the root of the tree$/;"	m	class:AVLTree	access:public
+root	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *root;                             \/\/ pointer to the node at the root of the tree$/;"	m	class:BSTree_Fast	access:private
+root	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  BSTNode<T> *root;                             \/\/ pointer to the node at the root of the tree$/;"	m	class:BSTree_Fast	access:private
+rotate_left	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void rotate_left(AVLNode<T> * &, bool = false);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> * &, bool = false)
+rotate_left	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::rotate_left(AVLNode<T> * & t, bool do_print)$/;"	f	class:AVLTree	signature:(AVLNode<T> * & t, bool do_print)
+rotate_right	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void rotate_right(AVLNode<T> * &, bool = false);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> * &, bool = false)
+rotate_right	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::rotate_right(AVLNode<T> * & t, bool do_print)$/;"	f	class:AVLTree	signature:(AVLNode<T> * & t, bool do_print)
+sadness	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    In sadness, cousin, I do love a woman.$/;"	v
+sadness	/opt/study_dt_al/template/filecleaner/rj.txt	/^    In sadness, cousin, I do love a woman.$/;"	v
+said	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Nay, I do bear a brain. But, as I said,$/;"	v
+said	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    She was too good for me. But, as I said,$/;"	v
+said	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Nay, I do bear a brain. But, as I said,$/;"	v
+said	/opt/study_dt_al/template/filecleaner/rj.txt	/^    She was too good for me. But, as I said,$/;"	v
+say	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Whose names are written there, and to them say, $/;"	v
+say	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Whose names are written there, and to them say, $/;"	v
+scene	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    In fair Verona, where we lay our scene,$/;"	v
+scene	/opt/study_dt_al/template/filecleaner/rj.txt	/^    In fair Verona, where we lay our scene,$/;"	v
+see	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Inherit at my house. Hear all, all see,$/;"	v
+see	/opt/study_dt_al/hmwk/lab_4/dll_list/sonnet.txt	/^So long as men can breathe, or eyes can see,$/;"	v
+see	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Inherit at my house. Hear all, all see,$/;"	v
+see	/opt/study_dt_al/template/filecleaner/sonnet.txt	/^So long as men can breathe, or eyes can see,$/;"	v
+sense	/opt/study_dt_al/hmwk/lab_4/dll_list/getty.txt	/^But, in a larger sense, we cannot dedicate...we cannot consecrate...$/;"	v
+sense	/opt/study_dt_al/template/filecleaner/getty.txt	/^But, in a larger sense, we cannot dedicate...we cannot consecrate...$/;"	v
+setAllBalanceFactors	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setAllBalanceFactors();$/;"	p	class:AVLTree	access:public	signature:()
+setAllBalanceFactors	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setAllBalanceFactors(AVLNode<T> *);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+setAllBalanceFactors	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::setAllBalanceFactors()$/;"	f	class:AVLTree	signature:()
+setAllBalanceFactors	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::setAllBalanceFactors(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+setAllCurrentHeights	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int setAllCurrentHeights(AVLNode<T> *);$/;"	p	class:AVLTree	access:public	signature:(AVLNode<T> *)
+setAllCurrentHeights	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setAllCurrentHeights();$/;"	p	class:AVLTree	access:public	signature:()
+setAllCurrentHeights	/opt/study_dt_al/hmwk/lab6/avl.hh	/^int AVLTree<T>::setAllCurrentHeights(AVLNode<T> * t)$/;"	f	class:AVLTree	signature:(AVLNode<T> * t)
+setAllCurrentHeights	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::setAllCurrentHeights()$/;"	f	class:AVLTree	signature:()
+setData	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void setData(T theData) { data = theData; }$/;"	f	class:Node	access:public	signature:(T theData)
+setKey	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setKey(T & theKey) { key = theKey; }$/;"	f	class:AVLNode	access:public	signature:(T & theKey)
+setKey	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void setKey(T theKey) { key = theKey; }$/;"	f	class:BSTNode	access:public	signature:(T theKey)
+setKey	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void setKey(T theKey) { key = theKey; }$/;"	f	class:BSTNode	access:public	signature:(T theKey)
+setLeft	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setLeft(AVLNode<T> * theLeft) { left = theLeft; }$/;"	f	class:AVLNode	access:public	signature:(AVLNode<T> * theLeft)
+setLeft	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void setLeft(BSTNode<T> * theLeft) { left = theLeft; }$/;"	f	class:BSTNode	access:public	signature:(BSTNode<T> * theLeft)
+setLeft	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void setLeft(BSTNode<T> * theLeft) { left = theLeft; }$/;"	f	class:BSTNode	access:public	signature:(BSTNode<T> * theLeft)
+setNext	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void setNext(Node<T> * theNext) { next = theNext; }$/;"	f	class:Node	access:public	signature:(Node<T> * theNext)
+setNumber	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setNumber(int num) { number = num; }$/;"	f	class:AVLNode	access:public	signature:(int num)
+setParent	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setParent(AVLNode<T> * theParent) { parent = theParent; }$/;"	f	class:AVLNode	access:public	signature:(AVLNode<T> * theParent)
+setPrev	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  void setPrev(Node<T> * thePrev) { prev = thePrev; }$/;"	f	class:Node	access:public	signature:(Node<T> * thePrev)
+setRight	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void setRight(AVLNode<T> * theRight) { right = theRight; }$/;"	f	class:AVLNode	access:public	signature:(AVLNode<T> * theRight)
+setRight	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void setRight(BSTNode<T> * theRight) { right = theRight; }$/;"	f	class:BSTNode	access:public	signature:(BSTNode<T> * theRight)
+setRight	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  void setRight(BSTNode<T> * theRight) { right = theRight; }$/;"	f	class:BSTNode	access:public	signature:(BSTNode<T> * theRight)
+severity	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    For beauty, starv'd with her severity,$/;"	v
+severity	/opt/study_dt_al/template/filecleaner/rj.txt	/^    For beauty, starv'd with her severity,$/;"	v
+shade	/opt/study_dt_al/hmwk/lab_4/dll_list/sonnet.txt	/^Nor shall Death brag thou wanderest in his shade,$/;"	v
+shade	/opt/study_dt_al/template/filecleaner/sonnet.txt	/^Nor shall Death brag thou wanderest in his shade,$/;"	v
+she	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    That shall she, marry; I remember it well.$/;"	v
+she	/opt/study_dt_al/template/filecleaner/rj.txt	/^    That shall she, marry; I remember it well.$/;"	v
+shines	/opt/study_dt_al/hmwk/lab_4/dll_list/sonnet.txt	/^Sometime too hot the eye of heaven shines,$/;"	v
+shines	/opt/study_dt_al/template/filecleaner/sonnet.txt	/^Sometime too hot the eye of heaven shines,$/;"	v
+show	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Compare her face with some that I shall show,$/;"	v
+show	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Compare her face with some that I shall show,$/;"	v
+sighs	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Adding to clouds more clouds with his deep sighs;$/;"	v
+sighs	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Adding to clouds more clouds with his deep sighs;$/;"	v
+sir	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Samp. But if you do, sir, am for you. I serve as good a man as$/;"	v
+sir	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Samp. No, sir, I do not bite my thumb at you, sir; but I bite$/;"	v
+sir	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Samp. But if you do, sir, am for you. I serve as good a man as$/;"	v
+sir	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Samp. No, sir, I do not bite my thumb at you, sir; but I bite$/;"	v
+sirrah	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^sirrah,$/;"	v
+sirrah	/opt/study_dt_al/template/filecleaner/rj.txt	/^sirrah,$/;"	v
+size	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int size() { return numNodes; }$/;"	f	class:AVLTree	access:public	signature:()
+size	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^  int size();                            \/\/ how many element are in the list?$/;"	p	class:MyList	access:public	signature:()
+size	/opt/study_dt_al/hmwk/lab_4/dll_list/dll_list.hh	/^int MyList<T>::size()$/;"	f	class:MyList	signature:()
+smoke	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Feather of lead, bright smoke, cold fire, sick health!$/;"	v
+smoke	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Feather of lead, bright smoke, cold fire, sick health!$/;"	v
+spoken	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    And yet, to my teen be it spoken, I have but four-$/;"	v
+spoken	/opt/study_dt_al/template/filecleaner/rj.txt	/^    And yet, to my teen be it spoken, I have but four-$/;"	v
+still	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Rom. Alas that love, whose view is muffled still,$/;"	v
+still	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Rom. Alas that love, whose view is muffled still,$/;"	v
+store	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Such as I love; and you among the store,$/;"	v
+store	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Such as I love; and you among the store,$/;"	v
+string_test	/opt/study_dt_al/hmwk/lab_4/dll_list/main.cpp	/^void string_test()$/;"	f	signature:()
+test_bst_by_files	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void test_bst_by_files(){$/;"	f	signature:()
+test_bst_time	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void test_bst_time()$/;"	f	signature:()
+test_contains	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void test_contains(){$/;"	f	signature:()
+test_fast_insert	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void test_fast_insert(){$/;"	f	signature:()
+test_fast_print	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void test_fast_print(){$/;"	f	signature:()
+test_findMax	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void test_findMax(){$/;"	f	signature:()
+test_slow_findmax	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void test_slow_findmax(){$/;"	f	signature:()
+test_slow_insert	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void test_slow_insert(){$/;"	f	signature:()
+test_slow_print	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/main.cpp	/^void test_slow_print(){$/;"	f	signature:()
+thee	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    By thee, old Capulet, and Montague,$/;"	v
+thee	/opt/study_dt_al/template/filecleaner/rj.txt	/^    By thee, old Capulet, and Montague,$/;"	v
+them	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    disgrace to them, if they bear it.$/;"	v
+them	/opt/study_dt_al/template/filecleaner/rj.txt	/^    disgrace to them, if they bear it.$/;"	v
+there	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Whose names are written there, and to them say, $/;"	v
+there	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Whose names are written there, and to them say, $/;"	v
+these	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    And these, who, often drown'd, could never die,$/;"	v
+these	/opt/study_dt_al/template/filecleaner/rj.txt	/^    And these, who, often drown'd, could never die,$/;"	v
+thumb	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    thumb, sir.$/;"	v
+thumb	/opt/study_dt_al/template/filecleaner/rj.txt	/^    thumb, sir.$/;"	v
+torture	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    On pain of torture, from those bloody hands$/;"	v
+torture	/opt/study_dt_al/template/filecleaner/rj.txt	/^    On pain of torture, from those bloody hands$/;"	v
+tp	/opt/study_dt_al/hmwk/lab6/avl	/^k:^/;"	v
+tree	/opt/study_dt_al/hmwk/project_1/bst_fast_and_slow/bst_fast_and_slow.hh	/^  vector < BSTNode<T> * > tree;                 \/\/ vector of pointers to nodes in the "tree"$/;"	m	class:BSTree_Slow	access:private
+tree	/opt/study_dt_al/template/bst_fast_and_slow/bst_fast_and_slow.hh	/^  vector < BSTNode<T> * > tree;                 \/\/ vector of pointers to nodes in the "tree"$/;"	m	class:BSTree_Slow	access:private
+tt	/opt/study_dt_al/hmwk/lab_4/dll_list/lab4.tar	/^  Node<T> *tt=first;$/;"	v
+turning	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Turn giddy, and be holp by backward turning;$/;"	v
+turning	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Turn giddy, and be holp by backward turning;$/;"	v
+updateBalanceFactors	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  void updateBalanceFactors();$/;"	p	class:AVLTree	access:public	signature:()
+updateBalanceFactors	/opt/study_dt_al/hmwk/lab6/avl.hh	/^void AVLTree<T>::updateBalanceFactors()$/;"	f	class:AVLTree	signature:()
+vex	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Being vex'd, a sea nourish'd with lovers' tears.$/;"	v
+vex	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Being vex'd, a sea nourish'd with lovers' tears.$/;"	v
+view	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Ben. Alas that love, so gentle in his view,$/;"	v
+view	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Ben. Alas that love, so gentle in his view,$/;"	v
+waste	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Rom. She hath, and in that sparing makes huge waste;$/;"	v
+waste	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Rom. She hath, and in that sparing makes huge waste;$/;"	v
+wean	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    And she was wean'd (I never shall forget it),$/;"	p	file:	signature:(I never shall forget it)
+wean	/opt/study_dt_al/template/filecleaner/rj.txt	/^    And she was wean'd (I never shall forget it),$/;"	p	file:	signature:(I never shall forget it)
+welcome	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    One more, most welcome, makes my number more.$/;"	v
+welcome	/opt/study_dt_al/template/filecleaner/rj.txt	/^    One more, most welcome, makes my number more.$/;"	v
+who	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    And these, who, often drown'd, could never die,$/;"	v
+who	/opt/study_dt_al/template/filecleaner/rj.txt	/^    And these, who, often drown'd, could never die,$/;"	v
+wife	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^      Mine uncle Capulet, his wife, and daughters;$/;"	v
+wife	/opt/study_dt_al/template/filecleaner/rj.txt	/^      Mine uncle Capulet, his wife, and daughters;$/;"	v
+windows	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Shuts up his windows, locks fair daylight$/;"	v
+windows	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Shuts up his windows, locks fair daylight$/;"	v
+winds	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    He swung about his head and cut the winds,$/;"	v
+winds	/opt/study_dt_al/template/filecleaner/rj.txt	/^    He swung about his head and cut the winds,$/;"	v
+wise	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    She is too fair, too wise, wisely too fair,$/;"	v
+wise	/opt/study_dt_al/template/filecleaner/rj.txt	/^    She is too fair, too wise, wisely too fair,$/;"	v
+withal	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Who, nothing hurt withal, hiss'd him in scorn.$/;"	v
+withal	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Who, nothing hurt withal, hiss'd him in scorn.$/;"	v
+word	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Samp. Gregory, on my word, we'll not carry coals.$/;"	v
+word	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Samp. Gregory, on my word, we'll not carry coals.$/;"	v
+worstBalanceFactor	/opt/study_dt_al/hmwk/lab6/avl.hh	/^  int worstBalanceFactor;$/;"	m	class:AVLTree	access:public
+writ	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    here writ, and can never find what names the writing person$/;"	v
+writ	/opt/study_dt_al/template/filecleaner/rj.txt	/^    here writ, and can never find what names the writing person$/;"	v
+x	/opt/study_dt_al/recycle/linked.cpp	/^        int x;$/;"	m	struct:LinkedList::Node	file:	access:public
+year	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    Of all the days of the year, upon that day;$/;"	v
+year	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Nurse. Even or odd, of all days in the year,$/;"	v
+year	/opt/study_dt_al/template/filecleaner/rj.txt	/^    Of all the days of the year, upon that day;$/;"	v
+year	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Nurse. Even or odd, of all days in the year,$/;"	v
+years	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^    She hath not seen the change of fourteen years;$/;"	v
+years	/opt/study_dt_al/template/filecleaner/rj.txt	/^    She hath not seen the change of fourteen years;$/;"	v
+you	/opt/study_dt_al/hmwk/lab_4/dll_list/rj.txt	/^  Samp. No, sir, I do not bite my thumb at you, sir; but I bite$/;"	v
+you	/opt/study_dt_al/template/filecleaner/rj.txt	/^  Samp. No, sir, I do not bite my thumb at you, sir; but I bite$/;"	v
